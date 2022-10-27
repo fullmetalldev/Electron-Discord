@@ -1,0 +1,16 @@
+.ChannelDetails {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+
+  &__title {
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 1px solid #222327;
+  }
+}

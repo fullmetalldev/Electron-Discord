@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: HelveticaNeueCyr, sans-serif;
+}
+
+#root{
+    background: #202225;
+    cursor: url("./cursors/cursorWhite.png"), default;
+}
+.App{
+    width: 100%;
+    display: flex;
+}
