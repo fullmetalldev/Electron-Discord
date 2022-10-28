@@ -14,10 +14,20 @@ export const channelsData = [
             {title: 'Disco'}
         ],
         chatChanels: [
-            {title: 'Releases'},
-            {title: 'Giveaways (Epic Games)'},
-            {title: 'Chat'}
-        ]
+            {
+                title: 'Releases',
+                messages: []
+            },
+            {
+                title: 'Giveaways (Epic Games)',
+                messages: []
+            },
+            {
+                title: 'Chat',
+                messages: []
+            }
+        ],
+
     },
     {
         image: 'https://эрудит.kz/uploads/posts/2017-12/1514204578_mini_1.jpg',
@@ -27,6 +37,7 @@ export const channelsData = [
             {title: 'Work & Listen'},
             {title: 'Disco'}
         ],
+        messages: [],
         chatChanels: [
             {
                 title: 'Songs List',
@@ -47,21 +58,26 @@ export const channelsData = [
                         file: TakeItEasy,
                         name: 'Take It Easy'
                     }
-                ]
+                ],
+                messages: []
             }
         ]
     },
     {
         image: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/7c/7cc6abe0257a1205cf6ab28efbaefeeb6d6698b3_full.jpg',
         title: 'Anime Room',
+        messages: [],
         voiceChanels: [
             {title: 'Talking'},
             {title: 'Kimetsu No Yaiba'},
             {title: 'Saga of Vinland'}
         ],
         chatChanels: [
-            {title: 'Releases'},
-            {title: 'Discussion'}
+            {
+                title: 'Releases',
+                messages: []
+            },
+            {title: 'Discussion', messages: []}
         ]
     }
 ]

@@ -48,7 +48,7 @@ const Waveform = ({url, id, name}) => {
 
     return (
         <div style={{width: "100%"}}>
-            <div id={`waveform${id}`}/>
+            <div className="waves" id={`waveform${id}`}/>
             <div className="waveformButtons">
                 <span className="waveformButtons__songName">{name}</span>
                 <button onClick={() => setPlaying(!playing)}>

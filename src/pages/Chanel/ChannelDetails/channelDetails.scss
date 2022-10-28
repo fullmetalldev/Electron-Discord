@@ -9,7 +9,7 @@
     color: #FFFFFF;
     display: flex;
     background: #8E9297;
-    padding: 5px;
+    padding: 8px;
     max-width: 100%;
     white-space: pre-wrap;
     border-radius: 10px;
@@ -71,7 +71,7 @@
     display: flex;
     padding: 15px;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 15px;
   }
 
   &__title {
@@ -87,7 +87,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 20px;
-    background: #8E929770;
+    background: #8E929750;
   }
 
   .waveformButtons {
@@ -118,7 +118,7 @@
     opacity: 0;
   }
   100% {
-    padding: 5px;
+    padding: 8px;
     opacity: 1;
   }
 

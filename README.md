@@ -1,6 +1,8 @@
-### Использованные стеки - React, Electron, Electron remote,
-### SoundWave.js, scss, BEM
+### Discord mini - clone
+#### Тестовое задание в Fntastic
 
-### Пакетный менеджер - npm
-### Установка зависимостей через npm install 
-### запуск десктоп приложения через -  npm run electron:serve
+##### Использованные стеки и пакеты: React, Electro, Electro/remote, JS, npm
+
+#### Установка всех зависимостей - npm install
+
+#### Команда для запуска - npm run electron:serve

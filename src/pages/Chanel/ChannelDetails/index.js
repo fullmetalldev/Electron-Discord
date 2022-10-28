@@ -1,23 +1,23 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import './channelDetails.scss';
 import AudiWave from "../../../components/Audio/AudiWave";
 
 const ChannelDetails = ({data}) => {
 
     const messageRow = useRef();
+    const [state, setState] = useState(false)
 
     const submitMessage = (e) => {
         e.preventDefault();
-        const htmlNode = document.createElement('div')
-        htmlNode.classList.add('ChannelDetails__message')
-        htmlNode.innerHTML = `
-            <span>${e.target[0].value}</span>
-            <span class="time">${String(new Date().getHours()) + ':' + String(new Date().getMinutes())}</span>
-        `
-        console.log(e.target[0].value)
-        console.log(htmlNode)
-        messageRow.current.append(htmlNode)
+        console.log(data.messages)
+        data.messages.push(
+            {
+                message: e.target[0].value,
+                time: String(new Date().getHours()) + ':' + String(new Date().getMinutes())
+            }
+        )
         e.target[0].value = ''
+        setState((prev) => !prev)
     }
 
     return (
@@ -35,6 +35,12 @@ const ChannelDetails = ({data}) => {
                                 ))
                                 : ''
                             }
+                            {data.messages && data.messages.map((item) => (
+                                <div className="ChannelDetails__message">
+                                    <span>{item.message}</span>
+                                    <span className="time">{item.time}</span>
+                                </div>
+                            ))}
                         </div>
                         <form onSubmit={(e) => submitMessage(e)} className="ChannelDetails__messageForm">
                             <input type="text"/>
