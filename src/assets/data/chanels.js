@@ -1,3 +1,9 @@
+import TakeItEasy from './MIKA  Relax Take It Easy.mp3';
+import MockingBird from './Mockingbird  sped up.mp3';
+import SweaterWeather from './The Neighbourhood  Sweater Weather speed up.mp3';
+import ImNotOnlyOne from './Im_not_the_only_one.mp3';
+
+
 export const channelsData = [
     {
         image: 'https://1.bp.blogspot.com/-mFUANZQ-Lys/Xf8yCVLHoTI/AAAAAAAAAAc/owgY9vgVMcYi8gdw7rAPp4YY2aA30J7bwCLcBGAsYHQ/s320/Pc46876.jpg',
@@ -25,14 +31,22 @@ export const channelsData = [
             {
                 title: 'Songs List',
                 list: [
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
-                    'https://www.youtube.com/embed/nSZwWX9u0YU',
+                    {
+                        file: ImNotOnlyOne,
+                        name: "I'm not the only one - Sam Smith"
+                    },
+                    {
+                        file: MockingBird,
+                        name: "Mocking Bird Speed Up"
+                    },
+                    {
+                        file: SweaterWeather,
+                        name: "Sweater Weather Speed Up"
+                    },
+                    {
+                        file: TakeItEasy,
+                        name: 'Take It Easy'
+                    }
                 ]
             }
         ]

@@ -2,8 +2,14 @@
   flex: auto;
   display: flex;
   flex-direction: column;
-  height: 100%;
   position: relative;
+
+  &__row {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
 
   &__title {
     width: 100%;
@@ -12,5 +18,33 @@
     font-size: 18px;
     color: #ffffff;
     border-bottom: 1px solid #222327;
+  }
+
+  .audioSound {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background: #8E929770;
+  }
+
+  .waveformButtons {
+    flex-direction: column;
+    row-gap: 8px;
+    width: 100%;
+    margin-top: 8px;
+    column-gap: 8px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    align-items: center;
+
+    button {
+      background: none;
+      border: none;
+    }
+
+    &__songName {
+      color: #FFFFFF;
+    }
   }
 }
