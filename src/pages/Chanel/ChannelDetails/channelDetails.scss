@@ -10,6 +10,8 @@
     display: flex;
     background: #8E9297;
     padding: 5px;
+    max-width: 100%;
+    white-space: pre-wrap;
     border-radius: 10px;
     align-items: center;
     animation: messageShow 0.3s ease;
