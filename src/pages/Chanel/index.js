@@ -28,8 +28,8 @@ const Chanel = () => {
                                 </div>
                                 <div className="Channel__aside_channelRow-list">
                                     {
-                                        channelsData[id].chatChanels.map((item) => (
-                                            <button onClick={() => setChannelState(item)} className="chanel">
+                                        channelsData[id].chatChanels.map((item, idx) => (
+                                            <button key={idx} onClick={() => setChannelState(item)} className="chanel">
                                                 <img src={TextChannelIcon} alt=""/>
                                                 <span>{item.title}</span>
                                             </button>
@@ -48,8 +48,8 @@ const Chanel = () => {
                                 </div>
                                 <div className="Channel__aside_channelRow-list">
                                     {
-                                        channelsData[id].voiceChanels.map((item) => (
-                                            <button onClick={() => setChannelState(item)} className="chanel">
+                                        channelsData[id].voiceChanels.map((item, idx) => (
+                                            <button key={idx} onClick={() => setChannelState(item)} className="chanel">
                                                 <img src={VoiceChannelIcon} alt=""/>
                                                 <span>{item.title}</span>
                                             </button>

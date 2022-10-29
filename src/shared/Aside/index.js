@@ -17,7 +17,7 @@ const Aside = () => {
 
             <nav className="Aside__navbar">
                 {channelsData.map((item, idx) => (
-                    <NavLink to={`/${idx}`}>
+                    <NavLink key={idx} to={`/${idx}`}>
                         <ChanelCard card={item}/>
                     </NavLink>
                 ))}

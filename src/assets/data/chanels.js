@@ -79,5 +79,29 @@ export const channelsData = [
             },
             {title: 'Discussion', messages: []}
         ]
+    },
+    {
+        image: 'https://phonoteka.org/uploads/posts/2021-06/1624391689_10-phonoteka_org-p-flag-kazakhstana-oboi-na-telefon-krasivo-17.jpg',
+        title: 'Kazakhstan',
+        messages: [],
+        voiceChanels: [
+            {title: 'Общение анау мнау'}
+        ],
+        chatChanels: [
+            {
+                title: 'Чат',
+                messages: [],
+            },
+            {
+                title: 'Лучшие Казахские песни',
+                messages: [],
+                videos: ["https://www.youtube.com/embed/YPufRvMNw14",
+                    "https://www.youtube.com/embed/dVJj45yDJtU",
+                    "https://www.youtube.com/embed/_9VBWSVTZh8",
+                    "https://www.youtube.com/embed/EYT7cHxySUo"
+                ]
+            },
+        ]
     }
+
 ]

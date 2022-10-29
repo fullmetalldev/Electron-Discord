@@ -47,10 +47,14 @@
     background: #8E9297;
     border-radius: 15px;
   }
-
+  .video{
+    width: 100%;
+    height: 500px;
+  }
   &__messageForm {
     display: flex;
     padding: 15px;
+    position: sticky;
     background: #4F5660;
     border-radius: 15px;
     width: 100%;
@@ -87,7 +91,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 20px;
-    background: #8E929750;
+    background: #4F5660;
   }
 
   .waveformButtons {

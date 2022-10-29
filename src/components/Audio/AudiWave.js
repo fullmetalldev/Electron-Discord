@@ -16,7 +16,7 @@ const Waveform = ({url, id, name}) => {
                 container: `#waveform${id}`,
                 backend: 'WebAudio',
                 height: 32,
-                progressColor: '#E7B672',
+                progressColor: '#8E9297',
                 responsive: true,
                 waveColor: 'rgba(6, 2, 13, 0.2)',
                 cursorColor: 'transparent',
@@ -29,6 +29,7 @@ const Waveform = ({url, id, name}) => {
 
     const playAudio = () => {
         if (!playing) {
+            console.log(waveform.current)
             waveform.current.pause();
 
         } else {
