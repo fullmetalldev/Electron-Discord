@@ -6,3 +6,5 @@
 #### Установка всех зависимостей - npm install
 
 #### Команда для запуска - npm run electron:serve
+
+#### Все анимации прописаны вручную через css(keyframes, transition)
