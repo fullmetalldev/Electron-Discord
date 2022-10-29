@@ -15,7 +15,7 @@ const createWindow = () => {
     });
 
     win.loadURL('http://localhost:3000');
-    win.webContents.openDevTools();
+    // win.webContents.openDevTools();
     win.setMenu(null)
     win.on('closed', () => {
         win = null;
