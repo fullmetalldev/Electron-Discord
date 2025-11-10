@@ -81,19 +81,19 @@ export const channelsData = [
         ]
     },
     {
-        image: 'https://phonoteka.org/uploads/posts/2021-06/1624391689_10-phonoteka_org-p-flag-kazakhstana-oboi-na-telefon-krasivo-17.jpg',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Kazakhstan_%283-2%29.svg/2560px-Flag_of_Kazakhstan_%283-2%29.svg.png',
         title: 'Kazakhstan',
         messages: [],
         voiceChanels: [
-            {title: 'Общение анау мнау'}
+            {title: 'Talking "anau-mynau" '}
         ],
         chatChanels: [
             {
-                title: 'Чат',
+                title: 'Chat',
                 messages: [],
             },
             {
-                title: 'Лучшие Казахские песни',
+                title: 'Best kazakh songs',
                 messages: [],
                 videos: ["https://www.youtube.com/embed/YPufRvMNw14",
                     "https://www.youtube.com/embed/dVJj45yDJtU",

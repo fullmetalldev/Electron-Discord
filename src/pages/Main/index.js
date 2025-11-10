@@ -6,8 +6,8 @@ const Main = () => {
         <div className="Main">
             <div className="Main__aside"></div>
             <div className="Main__row">
-                <h2 className="Main__title">Добро пожаловать в Discord!</h2>
-                <span className="Main__subtitle">Заведите друзей и начните общение прямо сейчас!</span>
+                <h2 className="Main__title">Welcome to Discord!</h2>
+                <span className="Main__subtitle">Make friends and start conversations now.</span>
             </div>
         </div>
     );
