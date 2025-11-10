@@ -1,10 +1,34 @@
-### Discord mini - clone
-#### Тестовое задание в Fntastic
+<h1 align="center">🎧 Discord Mini — Clone</h1>
+<h3 align="center">🧩 Test Assignment for Fntastic</h3>
 
-##### Использованные стеки и пакеты: React, Electro, Electro/remote, JS, npm
+---
 
-#### Установка всех зависимостей - npm install
+## Description
 
-#### Команда для запуска - npm run electron:serve
+Simple mini-clone desktop app of **Discord**,  built as part of a test assignment for **Fntastic**.  
+The main focus is on manual **UI**, **animations (keyframes)** and **interactive interface**.
 
-#### Все анимации прописаны вручную через css(keyframes, transition)
+---
+
+### ⚙️ Techs and packages
+- ⚛️ **React** — creating react-app ui
+- 💻 **Electron** — building desktop application
+- 🔗 **@electron/remote** — Connections between processes
+- 📜 **JavaScript (ES6+)**  
+- 📦 **npm** — dependencies managament
+
+---
+
+### Run app
+
+
+### 1.📦 Install dependencies
+```bash
+npm install
+```
+
+### 2. Run electron script
+```bash
+npm run electron:serve
+```
+
